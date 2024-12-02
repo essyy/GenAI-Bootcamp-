@@ -1,4 +1,4 @@
-# GenAI-Bootcamp-
+![image](https://github.com/user-attachments/assets/40c31b3d-d3ae-4aa4-9122-e85bb6804bc6)# GenAI-Bootcamp-
 
 
 ## Prompt Engineering 
@@ -24,6 +24,23 @@ However, if there’s a tie (two tokens have the same highest probability), the 
         - Top K - selects the top K most likely tokens from teh model's predicted distribution . The higher top K the more creative ad varies the output\. The lower the top K , the more restrictive and factual the model . The top K of 1 is equal to greedy decoding
         - Top P - selects the top tokens that have a cumulative probability does not exceeed a certain value of P . P values range from 0 to 1
         - ![image](https://github.com/user-attachments/assets/b69c7177-9c9b-4a91-bbf4-19989c716f5f)
+-- If the temparature is 0, then the top k and top p will not be used. If the temparature is 9 (high) the tokens that fit in the precision either in the top p and top K are chosen at random.
+![image](https://github.com/user-attachments/assets/58201cf7-c6d8-4e40-b752-649d471012e3)
+
+![image](https://github.com/user-attachments/assets/4a5b254b-9b03-464b-9a85-dfc23e7cd3e5)
+### Prompting Techniques
+1. Zero shot
+   - it provides a description of a task + text for the LLM to get started with
+   - ![image](https://github.com/user-attachments/assets/e2ebe340-1fc3-4c98-88c4-1ce0a432eca5)
+  2. One shot & few shot
+     - One shot - provides a single example. The goal is to help it imitate the best complete the task
+     - few shot - multiple example to increase the chances that the model follows the pattern. These is need to use thre to five examples 
+     - 
+
+
+
+
+
 
           
 
